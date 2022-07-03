@@ -14,6 +14,9 @@
 <h3>Steps to run this project</h3>
 <p>Here is the instruction on how to run this project</p>
 <ol>
+<li>Clone this project on your local machine or server</li>
+<li>Go to the project directory and create <strong>var</strong> folder with 777 permission ( I know that 777 is not good practice, it is just for test )</li>
+<li>Go to the <strong>public</strong> folder and change <strong>music</strong> folder permission to 777 ( I know that 777 is not good practice, it is just for test ) </li>
 <li>Open .env file and change the DOMAIN_NAME parameter( you can leave it ... )</li>
 <li>Open your system hosts file and point the DOMAIN_NAME value to "127.0.0.1" or "localhost"</li>
 <li>Run this command in root project path: <pre>docker compose up</pre></li>
