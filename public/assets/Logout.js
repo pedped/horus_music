@@ -1,0 +1,1 @@
+import{_ as o,r as e,o as t,c as r}from"./index.js";const s={methods:{doLogout(){localStorage.clear(),e.push("/login"),console.log("user logged out")}},mounted(){this.doLogout()}};function a(c,n,u,l,d,p){return t(),r("div")}var g=o(s,[["render",a]]);export{g as default};

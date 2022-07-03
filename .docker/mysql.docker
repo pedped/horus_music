@@ -1,0 +1,6 @@
+FROM mariadb
+
+# Environment variables
+ENV MYSQL_ROOT_PASSWORD secret123
+
+# RUN mysql -u root -p${MYSQL_ROOT_PASSWORD} -e "CREATE DATABASE homusic;"
